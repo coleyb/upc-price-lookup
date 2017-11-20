@@ -5,6 +5,8 @@ gem 'rails', '3.2.22.5'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'pg'
+
 # Make pry available and the default in all envs
 gem 'pry'
 gem 'pry-rails'
