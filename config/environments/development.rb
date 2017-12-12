@@ -34,4 +34,6 @@ UpcPriceLookup::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  ENV['ember_url'] = 'http://localhost:4200'
 end
